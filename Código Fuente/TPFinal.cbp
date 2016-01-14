@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TPFinal" />
+		<Option pch_mode="2" />
+		<Option compiler="opencl_por_dio" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TPFinal" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="opencl_por_dio" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lopencv_core" />
+					<Add option="-lopencv_imgproc" />
+					<Add option="-lopencv_objdetect" />
+					<Add option="-lopencv_highgui" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TPFinal" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="opencl_por_dio" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="bin/Debug/Lab4.cl" />
+		<Unit filename="mainP4.cpp" />
+		<Unit filename="templateMatch.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

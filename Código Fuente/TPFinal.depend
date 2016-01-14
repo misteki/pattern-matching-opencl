@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1420037789 source:/home/matias/Escritorio/GPU/TP4/TPFinal/mainP4.cpp
+	<CL/cl.hpp>
+	<iostream>
+	<fstream>
+	<time.h>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+	"templateMatch.h"
+
+1420035154 /home/matias/Escritorio/GPU/TP4/TPFinal/templateMatch.h
+	<iostream>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<CL/cl.hpp>
+
